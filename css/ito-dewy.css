@@ -1,0 +1,98 @@
+/* White page surfaces with rose pink accents. */
+.tcb-template.ito-dewy{--rose:#db4f8c;--ink:#55434d;--line:#f1d6e2;--ivory:#fff;background:#fff;color:var(--ink)}
+.ito-dewy .page-wrap{box-shadow:0 0 65px #b17d941a;background:#fff}
+.ito-dewy .ito-hero-designed{background:#fff}
+.ito-dewy .tcb-price-details{border-color:#f0e8eb;background:#fff}
+.ito-dewy .tcb-price-details summary{color:#947b86}
+.ito-dewy .tcb-price-details p{color:#80707a}
+.tcb-template.ito-dewy .quiz{background:#fff;padding-bottom:38px}
+.tcb-template.ito-dewy .tcb-progress{background:#fff;border-top:1px solid #f0e8eb;border-bottom:1px solid #f0e8eb;box-shadow:none;padding-block:13px}
+.ito-dewy .tcb-progress__top{color:#775561}
+.ito-dewy .tcb-progress__top [data-step-label]{color:#cb3f7b}
+.ito-dewy .tcb-progress__track{height:5px;background:#f3d9e3;box-shadow:inset 0 1px 2px #b07e9414}
+.ito-dewy .tcb-progress__track>span{background:linear-gradient(90deg,#f8aacb,#f17aad 60%,#e94b94)}
+.ito-dewy .tcb-progress__numbers span{border-color:#eccbd9;background:linear-gradient(#fff,#fcf2f6);color:#b298a5;box-shadow:inset 0 1px #fff}
+.ito-dewy .tcb-progress__numbers .is-on{border-color:#d89bb5;background:linear-gradient(145deg,#ffbbd6 0,#ef70a7 43%,#d83f82 100%);box-shadow:inset 0 2px 3px #fffd,0 2px 5px #c490a733;color:white}
+.tcb-template.ito-dewy .quiz-step{position:relative}
+.ito-dewy .tcb-question-number{padding:5px 16px;color:#fff;border:1px solid #ecb5cd;border-radius:30px;font-size:12px;line-height:1.6;background:linear-gradient(130deg,#ffa9cc 2%,#f26da5 48%,#df508e 100%);box-shadow:inset 0 2px 2px #ffffff8c,0 2px 5px #c775991c;letter-spacing:.1em;margin-bottom:12px;text-shadow:0 1px 1px #84536944}
+.tcb-template.ito-dewy .quiz__q{color:#55434d;font-size:19px;line-height:1.7}
+.tcb-template.ito-dewy .quiz__hint{color:#93808b;font-size:11px;margin:8px 0 17px}
+.tcb-template.ito-dewy .cards{gap:12px}
+.tcb-template.ito-dewy .card{border:1px solid transparent;border-radius:14px;background:linear-gradient(120deg,#fff 0,#fff9fb 60%,#fff7fa 100%) padding-box,linear-gradient(135deg,#eeacc9,#f2d4e0 55%,#ecc5d6) border-box;box-shadow:inset 0 2px 0 #fff,0 4px 12px #c4809d18}
+.tcb-template.ito-dewy .card.is-active{border:1px solid transparent;background:linear-gradient(120deg,#fff 0,#fff6fa 100%) padding-box,linear-gradient(125deg,#d699b3,#ce86a5 70%,#d392ae) border-box;box-shadow:0 0 0 1px #d8a4bb,0 4px 14px #c68fa727}
+.tcb-template.ito-dewy .card__front{padding:10px 14px;gap:14px;min-height:106px}
+.tcb-template.ito-dewy .card__img{border:3px solid white;box-shadow:0 1px 6px #c98ea833;width:82px;height:82px}
+.tcb-template.ito-dewy .card__front:after{background:linear-gradient(140deg,#fff,#ffedf4);border-color:#e8bdd0;box-shadow:inset 0 1px 2px #fff,0 1px 3px #c98ea81a}
+.tcb-template.ito-dewy .card.is-active .card__front:after{background:linear-gradient(135deg,#d495b0,#cc81a2 65%,#ce89a7);border-color:#d496b1;box-shadow:inset 0 1px 2px #ffffffaa;color:#fff}
+.tcb-template.ito-dewy .card__label{color:#57444f;font-size:14px;line-height:1.7}
+.tcb-template.ito-dewy .card.is-active .card__label{color:#be3b73}
+.tcb-template.ito-dewy .card__answer{background:#ffffffed;border-color:#ebd0dc;color:#63515b;box-shadow:inset 0 1px #fff,0 3px 8px #d6aabd11}
+.tcb-template.ito-dewy .card__answer:before{background:white;border-color:#ebd0dc}
+.tcb-template.ito-dewy .card__eyebrow{color:#cc4781}
+.tcb-template.ito-dewy .card__feedback{color:#63535c}
+.tcb-template.ito-dewy .quiz-step.is-revealed~.quiz-step.is-revealed{border-top:1px solid #f3d8e2;margin-top:30px;padding-top:30px}
+.tcb-template.ito-dewy .btn-next{position:relative;overflow:hidden;border:1px solid #cb7e9f;border-radius:30px;background:linear-gradient(180deg,#ffb4d1 0%,#f575aa 36%,#e95596 76%,#d84181 100%);box-shadow:inset 0 2px 2px #ffffffc4,inset 0 -2px 3px #8e597140,0 4px 9px #c38ba32c;color:white;text-shadow:0 1px 2px #9c627c75;min-height:49px;font-size:15px;font-weight:600;letter-spacing:.05em}
+.tcb-template.ito-dewy .btn-next:disabled{border-color:#ebd4de;background:linear-gradient(#fff8fb,#f5dfe7);color:#b29ea7;text-shadow:none;box-shadow:inset 0 2px white}
+.tcb-template.ito-dewy .btn-prev{color:#a47c8d}
+.tcb-template.ito-dewy .intro-popup{border:1px solid #f0e8eb;background:#fff;box-shadow:0 22px 80px #986b7e38}
+.tcb-template.ito-dewy .intro-popup::backdrop{background:#97687d60;backdrop-filter:blur(6px)}
+.ito-dewy .tcb-intro h2{color:#57444f}.ito-dewy .tcb-intro h2 em{color:#995f79}
+.ito-dewy .tcb-intro .age-options button{border-color:#eecbda;background:#fff;box-shadow:0 3px 9px #d9adc023;color:#a4587e;border-radius:13px}
+.ito-dewy .tcb-intro .age-options button:hover{background:#fff;border-color:#dbb3c4}
+.ito-dewy .tcb-section-tag{color:#ab788e}
+.ito-dewy .ito-fv-countdown{position:relative;overflow:hidden;background:#fff;border-block:1px solid #f0e8eb;padding:23px 14px;box-shadow:none;color:#8b6576}
+.ito-dewy .ito-fv-countdown p{font-size:12px;letter-spacing:.045em}
+.ito-dewy .ito-fv-countdown strong{color:#d44683;font-weight:600;font-size:clamp(18px,5.3vw,28px);text-shadow:0 1px white}
+.ito-dewy .ito-fv-countdown small{color:#a08b96}
+.tcb-template.ito-dewy .body-redesign{background:#fff}
+.tcb-template.ito-dewy .body-redesign .section,
+.tcb-template.ito-dewy .body-redesign .section:nth-child(even),
+.tcb-template.ito-dewy .body-redesign .result{background:#fff}
+.tcb-template.ito-dewy .body-redesign .section.ito-vivid-cases{background:#fff;padding-bottom:32px}
+.ito-dewy .ito-case-image-title img{mix-blend-mode:multiply}
+.ito-dewy .ito-case-hint{color:#a38b96}
+.tcb-template.ito-dewy .ito-vivid-cases .cases .case{border:1px solid #edccda;box-shadow:0 4px 14px #d39fb61a;border-radius:12px}
+.tcb-template.ito-dewy .ito-vivid-cases .case-number{color:#a25376;background:#fff;border-bottom:1px solid #f0e8eb;box-shadow:none}
+.ito-dewy .ito-vivid-cases .tcb-case-nav button{color:#bb9eab}
+.ito-dewy .ito-vivid-cases .tcb-case-nav button.is-current{color:#ad5a7e;border-bottom-color:#bf7b98}
+.tcb-template.ito-dewy .body-redesign .section.ito-offer{background:#fff;padding-bottom:28px}
+.tcb-template.ito-dewy .ito-dewy-cta{position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;gap:5px;align-items:center;justify-content:center;margin-top:18px;min-height:77px;padding:14px 30px;border:1px solid #c8799b;border-radius:38px;background:linear-gradient(175deg,#ffbad7 0%,#f783b4 26%,#ed5b9a 58%,#dd4385 100%);box-shadow:inset 0 2px 3px #fffe,inset 0 -3px 5px #9d627d50,0 4px 10px #bc839c33;text-decoration:none;color:white;text-shadow:0 1px 2px #975e7877;font-weight:600}
+.ito-dewy-cta .ito-cta-micro{font-size:11px;font-weight:500;line-height:1.3;letter-spacing:.07em}
+.ito-dewy-cta .ito-cta-main{font-size:clamp(13px,3.6vw,18px);line-height:1.6;white-space:nowrap;letter-spacing:.025em}
+.ito-dewy-cta .ito-cta-main b{font-size:1.15em;font-weight:400;margin-left:7px}
+.ito-dewy-cta::before{content:'';position:absolute;top:-80%;bottom:-80%;left:-70%;width:28%;background:linear-gradient(90deg,transparent,#fff6,transparent);transform:skewX(-24deg);animation:ito-dewy-shine 5s ease-in-out infinite;pointer-events:none;z-index:1}
+.ito-dewy-cta:focus-visible{outline:3px solid #d34285;outline-offset:4px}
+.tcb-template.ito-dewy .sticky-cta{background:#fff;border-top:1px solid #f0e8eb;box-shadow:0 -2px 18px #ca99ae12;backdrop-filter:none}
+.tcb-template.ito-dewy .sticky-cta .ito-dewy-cta{width:100%;max-width:none;margin:0;min-height:67px;padding:11px 20px}
+.tcb-template.ito-dewy .ito-offer>.ito-dewy-cta{margin-inline:22px;width:calc(100% - 44px)}
+@keyframes ito-dewy-shine{0%,48%{left:-70%;opacity:0}52%{opacity:1}85%,100%{left:145%;opacity:0}}
+@media(max-width:400px){.tcb-template.ito-dewy .card__front{grid-template-columns:68px 1fr 20px;padding:9px 10px;gap:11px;min-height:92px}.tcb-template.ito-dewy .card__img{width:68px;height:68px}.tcb-template.ito-dewy .card__label{font-size:13px}.tcb-template.ito-dewy .quiz__q{font-size:18px}.tcb-template.ito-dewy .tcb-progress{margin-inline:-18px}.ito-dewy-cta .ito-cta-micro{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.ito-dewy-cta::before{animation:none;display:none}}
+
+/* Reserve space for the restored fixed reservation CTA. */
+.tcb-template.ito-dewy .page-footer{padding-bottom:120px}
+
+/* Keep a 5px gutter outside each edge of the case carousel. */
+.tcb-template.ito-dewy .ito-vivid-cases .cases{margin-inline:5px;width:calc(100% - 10px)}
+
+.ito-hero-designed>.ito-hero-image-note{position:absolute;right:7px;bottom:4px;color:#342d32;background:#ffffffb3;padding:0 3px;font-size:8px;line-height:1.5}
+
+/* Official mint reservation banner. */
+.tcb-template.ito-dewy .sticky-cta{padding:6px 8px calc(6px + env(safe-area-inset-bottom));background:transparent;border-top:0;box-shadow:none;pointer-events:none}
+.tcb-template.ito-dewy .sticky-cta .ito-image-cta{pointer-events:auto;min-height:0}
+.tcb-template.ito-dewy .page-footer{padding-bottom:calc(135px + env(safe-area-inset-bottom))}
+
+/* Flat retail-style campaign offer; scoped to the in-page reservation button. */
+.tcb-template.ito-dewy .ito-offer>.ito-dewy-cta{background:#68ae56;border:0;border-radius:10px;box-shadow:0 5px 10px #0002;text-shadow:none;min-height:86px;padding:14px 12px;margin-top:18px}
+.tcb-template.ito-dewy .ito-offer>.ito-dewy-cta .ito-cta-micro{color:#fff59c;font-weight:700;font-size:clamp(11px,3vw,15px)}
+.tcb-template.ito-dewy .ito-offer>.ito-dewy-cta .ito-cta-main{font-weight:700;font-size:clamp(14px,3.8vw,22px)}
+
+/* Supplied image CTA in the offer, original link preserved. */
+.tcb-template.ito-dewy .ito-offer>.ito-coupon-image-cta{display:block;margin:0 8px;width:calc(100% - 16px);line-height:0;background:transparent;border:0;text-decoration:none}
+.ito-coupon-image-cta img{display:block;width:100%;height:auto;margin:0}
+.ito-coupon-image-cta:focus-visible{outline:3px solid #39997c;outline-offset:2px;border-radius:12px}
+
+/* Offer image button gently pulses between 95% and its original size. */
+.ito-coupon-image-cta img{transform-origin:center;animation:ito-coupon-pulse 1.8s ease-in-out infinite}
+@keyframes ito-coupon-pulse{0%,100%{transform:scale(.95)}50%{transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){.ito-coupon-image-cta img{animation:none;transform:none}}

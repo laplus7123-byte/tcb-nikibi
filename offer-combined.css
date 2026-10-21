@@ -1,0 +1,24 @@
+/* One continuous offer: pink campaign ribbon, WEB coupon, CTA. */
+.pastel-theme #offer-first.combined-offer{padding:20px 3.5% 25px;background:linear-gradient(125deg,#f2fbff,#fff0f9)}
+.combined-offer .combined-campaign-ribbon{position:relative;width:100%;margin:0 auto 12px;padding:1.4cqw 5cqw 1.5cqw;clip-path:polygon(0 0,100% 0,95% 50%,100% 100%,0 100%,5% 50%);background:linear-gradient(105deg,#eba5ce,#df86b9 50%,#efb8d9);color:#fff;text-align:center;line-height:1.35}
+.combined-campaign-ribbon strong{display:block;font-size:3.8cqw;letter-spacing:.04em}
+.combined-campaign-ribbon strong::before,.combined-campaign-ribbon strong::after{content:'✦';font-size:.8em;margin:0 .45em}
+.combined-campaign-ribbon>span{display:block;width:76%;margin:.6cqw auto 0;padding:.1cqw 0;border-radius:999px;background:#fff0f9;color:#a6477f;font-size:2.5cqw;line-height:1.35;font-weight:700;white-space:nowrap}
+.pastel-theme #offer-first.combined-offer .campaign-ticket{width:96.2%;margin:2px auto 0}
+.pastel-theme #offer-first.combined-offer>.reference-image-cta{width:96.2%;margin:22px auto 18px}
+.combined-offer .combination-note{margin:10px 2% 0;text-align:left;color:#6e8995;font-size:max(9px,1.8cqw);line-height:1.65}
+.combined-offer .combination-note a{color:#4c9eb9;margin-left:.6em;text-underline-offset:.2em}
+.pastel-theme #offer-first.combined-offer .campaign-terms{margin-inline:2%}
+
+/* Match the second campaign banner to the supplied pink ribbon. */
+.pastel-theme #offer-second .campaign-ribbon{width:100%;margin:0 auto;padding:1.4cqw 5cqw 1.5cqw;border-radius:0;box-shadow:none;clip-path:polygon(0 0,100% 0,95% 50%,100% 100%,0 100%,5% 50%);background:#e9a0cc;color:#fff;line-height:1.35;text-align:center}
+.pastel-theme #offer-second .campaign-ribbon strong{display:block;font-size:3.8cqw;letter-spacing:.04em;text-shadow:none}
+.pastel-theme #offer-second .campaign-ribbon strong::before,.pastel-theme #offer-second .campaign-ribbon strong::after{content:'✦';font-size:.8em;margin:0 .45em}
+.pastel-theme #offer-second .campaign-ribbon>span{display:block;width:76%;margin:.6cqw auto 0;padding:.1cqw 0;border-radius:999px;background:#fff0f9;color:#a6477f;font-size:2.5cqw;line-height:1.35;font-weight:700;white-space:nowrap}
+
+/* Supplied coupon and four benefits replace the ribbon/ticket pair. */
+.pastel-theme #offer-first .offer-supplied-coupon,.pastel-theme #offer-second .offer-supplied-coupon{display:block;width:100%;margin:0;padding:0}
+.offer-supplied-coupon>img{display:block;width:100%;height:auto;margin:0}
+
+/* Clean display contours around the transparent supplied coupon artwork. */
+.offer-supplied-coupon>img{mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201697%20927%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M70%2078H1426A42%2042%200%200%200%201510%2078H1646Q1670%2078%201670%20102V598Q1670%20622%201646%20622H1510A42%2042%200%200%200%201426%20622H70Q46%20622%2046%20598V102Q46%2078%2070%2078Z%22%2F%3E%3Cg%20fill%3D%22white%22%3E%3Crect%20x%3D%2249%22%20y%3D%22654%22%20width%3D%22382%22%20height%3D%22244%22%2F%3E%3Crect%20x%3D%22459%22%20y%3D%22654%22%20width%3D%22385%22%20height%3D%22244%22%2F%3E%3Crect%20x%3D%22874%22%20y%3D%22654%22%20width%3D%22387%22%20height%3D%22244%22%2F%3E%3Crect%20x%3D%221289%22%20y%3D%22654%22%20width%3D%22383%22%20height%3D%22244%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");-webkit-mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201697%20927%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M70%2078H1426A42%2042%200%200%200%201510%2078H1646Q1670%2078%201670%20102V598Q1670%20622%201646%20622H1510A42%2042%200%200%200%201426%20622H70Q46%20622%2046%20598V102Q46%2078%2070%2078Z%22%2F%3E%3Cg%20fill%3D%22white%22%3E%3Crect%20x%3D%2249%22%20y%3D%22654%22%20width%3D%22382%22%20height%3D%22244%22%2F%3E%3Crect%20x%3D%22459%22%20y%3D%22654%22%20width%3D%22385%22%20height%3D%22244%22%2F%3E%3Crect%20x%3D%22874%22%20y%3D%22654%22%20width%3D%22387%22%20height%3D%22244%22%2F%3E%3Crect%20x%3D%221289%22%20y%3D%22654%22%20width%3D%22383%22%20height%3D%22244%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");mask-size:100% 100%;-webkit-mask-size:100% 100%;mask-repeat:no-repeat;-webkit-mask-repeat:no-repeat}

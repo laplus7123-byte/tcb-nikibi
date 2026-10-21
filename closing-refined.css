@@ -1,0 +1,183 @@
+/* A handwritten closing invitation, using the existing portrait without alteration. */
+@font-face {
+  font-family: YomogiFull;
+  src: url('assets/Yomogi-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.pastel-theme #consult.pastel-closing {
+  position: relative;
+  padding: 0;
+  background: #fbfdff;
+}
+.pastel-theme #consult .campaign-visual {
+  isolation: isolate;
+  background: #e9f7ff;
+}
+.pastel-theme #consult .campaign-visual::before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 4cqw;
+  left: 1.4cqw;
+  width: 53cqw;
+  height: 15cqw;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 350 100' fill='none'%3E%3Cpath d='M21 47 12 34M30 42 26 26M12 59 2 55M323 40 335 30M328 53 345 49' stroke='%238ec4db' stroke-width='2.1' stroke-linecap='round'/%3E%3Cpath d='M298 19c5-11 16-8 13 1-1 4-7 8-12 10-1-4-4-8-1-11Z' stroke='%23e6a0c5' stroke-width='1.9' stroke-linecap='round'/%3E%3C/svg%3E") center / contain no-repeat;
+  pointer-events: none;
+}
+.pastel-theme #consult .campaign-visual::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  inset: auto 0 0;
+  height: 8cqw;
+  background: linear-gradient(0deg, #f9fcff, #f9fcff00);
+  pointer-events: none;
+}
+.pastel-theme #consult .closing-copy {
+  z-index: 2;
+  top: 17%;
+  left: 5.4%;
+  width: 51%;
+  text-align: left;
+}
+.pastel-theme #consult .closing-copy > .hand {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 0 .8cqw;
+  padding: 1.2cqw 1.8cqw 1.5cqw;
+  border: 1px solid #8db6ca;
+  border-radius: 52% 48% 49% 51% / 45% 50% 50% 55%;
+  background: #ffffffe6;
+  color: #507e94;
+  font-family: YomogiFull, Yomogi, 'Hiragino Sans', sans-serif;
+  font-size: 3.65cqw;
+  font-weight: 400;
+  letter-spacing: -.06em;
+  line-height: 1.5;
+  white-space: nowrap;
+  transform: rotate(-4deg);
+  text-shadow: .2px 0 currentColor;
+}
+.pastel-theme #consult .closing-copy > .hand::after {
+  content: '';
+  position: absolute;
+  inset: -.5cqw .4cqw .2cqw -.7cqw;
+  border: 1px solid #a7c8d780;
+  border-radius: 47% 53% 52% 48% / 54% 43% 57% 46%;
+  transform: rotate(1.5deg);
+  pointer-events: none;
+}
+.pastel-theme #consult .closing-copy h2 {
+  position: relative;
+  width: max-content;
+  max-width: 100%;
+  margin: 5cqw 0 0;
+  padding: 0;
+  color: #3f6f87;
+  font-family: YomogiFull, Yomogi, 'Hiragino Sans', sans-serif;
+  font-size: 5.15cqw;
+  font-weight: 400;
+  line-height: 1.65;
+  letter-spacing: -.07em;
+  text-shadow: .28px 0 currentColor;
+  transform: rotate(-2deg);
+}
+.pastel-theme #consult .closing-copy h2 em {
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+  padding-bottom: 1.6cqw;
+  color: #ce589c;
+  font-style: normal;
+}
+.pastel-theme #consult .closing-copy h2 em::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: -.8cqw;
+  right: -.4cqw;
+  bottom: -.4cqw;
+  height: 3.8cqw;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 370 30' fill='none'%3E%3Cpath d='M3 11C83 22 211 2 365 10' stroke='%23eda5ca' stroke-width='3.5' stroke-linecap='round'/%3E%3Cpath d='M19 20C129 27 237 15 348 21' stroke='%23add7e9' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  pointer-events: none;
+}
+.pastel-theme #consult .closing-copy::after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 3cqw);
+  left: 30.5cqw;
+  width: 10.5cqw;
+  height: 10.5cqw;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 90 90' fill='none'%3E%3Cpath d='M13 8C65 6 78 40 47 61 37 67 25 70 16 70M25 57 15 71 31 79' stroke='%237fabbe' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+  pointer-events: none;
+}
+.pastel-theme #consult .campaign-visual > small {
+  z-index: 3;
+  right: 2.5%;
+  bottom: 2.5%;
+  padding: 0 .4cqw;
+  background: #ffffffa6;
+  color: #697f88;
+}
+.pastel-theme #consult .closing-action {
+  position: relative;
+  padding: 3cqw 6% 7cqw;
+  background: linear-gradient(150deg, #f9fcff 10%, #f6fbff 45%, #fff4fa);
+}
+.pastel-theme #consult .closing-action > p {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 4.3cqw;
+  color: #577f91;
+  font-family: YomogiFull, Yomogi, 'Hiragino Sans', sans-serif;
+  font-size: 3.65cqw;
+  font-weight: 400;
+  letter-spacing: -.04em;
+  line-height: 1.6;
+  text-shadow: .2px 0 currentColor;
+}
+.pastel-theme #consult .closing-action > p::before,
+.pastel-theme #consult .closing-action > p::after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  height: 3.5cqw;
+  width: 1px;
+  background: #8bb7cd;
+}
+.pastel-theme #consult .closing-action > p::before {
+  left: .9cqw;
+  transform: rotate(-25deg);
+}
+.pastel-theme #consult .closing-action > p::after {
+  right: .9cqw;
+  transform: rotate(25deg);
+}
+.pastel-theme #consult .campaign-cta {
+  margin-top: 3.5cqw;
+  margin-bottom: 0;
+  border-color: #ed9bc8;
+  background: linear-gradient(180deg, #fbd5ea 0%, #ef97c7 25%, #dc68ae 75%, #cf559e 100%);
+  box-shadow: inset 0 2px 2px #fffd, inset 0 -2px 2px #bc3a8a22, 0 4px 0 #ad528b, 0 8px 16px #ba72a126;
+}
+
+/* Generated handwritten closing banner: display the complete artwork. */
+.pastel-theme #consult .campaign-visual.closing-generated-visual::before,
+.pastel-theme #consult .campaign-visual.closing-generated-visual::after { content: none; }
+.pastel-theme #consult .closing-generated-visual > img { display: block; width: 100%; height: auto; aspect-ratio: auto; object-fit: contain; }
+
+/* Emphasize the invitation above the closing CTA. */
+.pastel-theme #consult .closing-action > p {
+  font-weight:700;
+  -webkit-text-stroke:.15px currentColor;
+  text-shadow:none;
+  text-decoration-line:underline;
+  text-decoration-color:#e779b5;
+  text-decoration-thickness:2px;
+  text-underline-offset:.3em;
+  text-decoration-skip-ink:none;
+}

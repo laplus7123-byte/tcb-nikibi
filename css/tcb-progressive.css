@@ -1,0 +1,57 @@
+/* Short hero and additive question flow. */
+.tcb-designed-visual__video{width:50.7%;height:67.4%;border-bottom-left-radius:16% 23%}
+.tcb-template .tcb-progress{padding:12px 24px;margin-bottom:18px}
+.tcb-template .tcb-progress__numbers{margin-top:8px;gap:14px}
+.tcb-template .tcb-progress__numbers span{width:20px;height:20px;font-size:10px}
+.tcb-template .tcb-progress__top{margin-bottom:7px;font-size:9px}
+.tcb-template .quiz__q{font-size:17px;line-height:1.6;margin-bottom:6px}
+.tcb-template .quiz__hint{margin-bottom:12px;font-size:10px}
+.tcb-template .tcb-question-number{margin-bottom:4px;font-size:11px}
+.tcb-template .cards{gap:9px}
+.tcb-template .card__front{min-height:96px;padding:8px 12px;grid-template-columns:80px 1fr 20px;gap:12px}
+.tcb-template .card__img{width:80px;height:80px}
+.tcb-template .card__label{font-size:13px;line-height:1.5}
+.tcb-template .btn-next{margin-top:14px;padding:12px 18px;min-height:44px}
+.tcb-template .quiz-step.is-revealed{display:block;animation:tcb-reveal .35s ease-out}
+.tcb-template .quiz-step.is-revealed~.quiz-step.is-revealed{border-top:1px solid #eadde2;padding-top:28px;margin-top:28px}
+@keyframes tcb-reveal{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.tcb-template .quiz-step.is-revealed{animation:none}}
+
+/* Flat cards allow smooth minification of the high-resolution illustrations. */
+.tcb-template .card,.tcb-template .card__inner,.tcb-template .card__face{perspective:none;transform-style:flat;backface-visibility:visible}
+.tcb-template .card__img{image-rendering:auto;transform:none;backface-visibility:visible}
+
+/* Readable answer labels and alternating advisor speech bubbles. */
+.tcb-template .card__label{display:block;text-align:left;justify-self:stretch;align-self:center;line-height:1.65;font-size:14px}
+.tcb-template .card__back{border:0;background:transparent;margin:0;padding:4px 12px 16px;grid-template-columns:minmax(0,1fr) 64px;gap:12px;align-items:center;overflow:visible}
+.tcb-template .card__back:before,.tcb-template .card__back:after{display:none}
+.tcb-template .card__smile{grid-column:2;grid-row:1;width:64px;height:64px;object-fit:cover;object-position:50% 15%;border-radius:50%;image-rendering:auto}
+.tcb-template .card__answer{position:relative;grid-column:1;grid-row:1;background:#fff;border:1px solid #e6ccd6;border-radius:14px;padding:12px 14px;text-align:left;color:#624b54;min-width:0}
+.tcb-template .card__answer:before{content:'';display:block;position:absolute;right:-6px;left:auto;top:calc(50% - 6px);width:10px;height:10px;background:#fff;border-top:1px solid #e6ccd6;border-right:1px solid #e6ccd6;transform:rotate(45deg)}
+.tcb-template .card__back .card__feedback{padding:0;font-size:13px;line-height:1.8;overflow-wrap:anywhere;font-weight:500}
+.tcb-template .card__back .card__eyebrow{border:0;padding:0;margin:0 0 4px;font-size:11px}
+
+/* Keep quiz progress visible without covering answer cards. */
+@media(max-width:959px){
+ .tcb-template:has([data-quiz]) .page-wrap{padding-top:76px}
+ .tcb-template .tcb-progress{position:fixed;top:0;left:50%;transform:translateX(-50%);width:min(100%,640px);box-sizing:border-box;margin:0;padding:10px 18px;z-index:50;box-shadow:0 2px 12px #493f4310}
+ .tcb-template .tcb-progress__top{margin-bottom:5px}
+ .tcb-template .tcb-progress__numbers{margin-top:6px}
+}
+@media(min-width:960px){
+ .tcb-template .tcb-progress{position:fixed;left:max(16px,calc(50% - 468px));top:50%;transform:translateY(-50%);width:124px;box-sizing:border-box;margin:0;padding:20px 12px;border-radius:16px;z-index:50;border:1px solid #ebdfd5}
+ .tcb-template .tcb-progress__top{flex-direction:column;gap:10px;font-size:10px;line-height:1.7}
+ .tcb-template .tcb-progress__track{margin-top:12px}
+ .tcb-template .tcb-progress__numbers{flex-direction:column;align-items:center;gap:18px;margin-top:18px}
+ .tcb-template .tcb-progress__numbers span{width:28px;height:28px;font-size:13px}
+}
+
+@media(min-width:960px){.tcb-template .tcb-progress__top{font-size:9px;letter-spacing:0}.tcb-template .tcb-progress__top span{white-space:nowrap}}
+/* Progress stays in the quiz flow until Q1 reaches the viewport top. */
+.tcb-template:has([data-quiz]) .page-wrap{padding-top:0;overflow-x:clip;overflow-y:visible}
+.tcb-template .tcb-progress{position:sticky;top:0;left:auto;transform:none;width:auto;margin:0 -24px 18px;padding:10px 18px;border:0;border-radius:0;z-index:50;box-shadow:0 2px 12px #493f4310}
+.tcb-template .tcb-progress__top{flex-direction:row;justify-content:space-between;gap:8px;font-size:9px;line-height:1.7;margin-bottom:5px}
+.tcb-template .tcb-progress__track{margin-top:0}
+.tcb-template .tcb-progress__numbers{flex-direction:row;gap:14px;margin-top:6px}
+.tcb-template .tcb-progress__numbers span{width:20px;height:20px;font-size:10px}
+@media(max-width:400px){.tcb-template .tcb-progress{margin-inline:-18px}}

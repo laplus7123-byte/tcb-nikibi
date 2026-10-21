@@ -1,0 +1,25 @@
+.tcb-template.ito-dewy .body-redesign .section.ito-official-flow{container-type:inline-size;padding:40px 0;background:#fff;color:#262626}
+.ito-official-flow .ito-flow-heading{margin-bottom:9cqw;text-align:center}
+.ito-official-flow .ito-flow-heading h2{font-family:'Yu Gothic','Hiragino Kaku Gothic ProN',sans-serif;font-size:clamp(19px,4.8cqw,31px);font-weight:600;line-height:1.5;letter-spacing:.04em;margin:0 0 2.6cqw;padding:0;color:#3d3d3d}
+.ito-official-flow .ito-flow-heading>img{display:block;width:100%;height:auto;margin:0}
+.ito-flow-stage{position:relative}
+.ito-flow-track{position:relative;display:flex;align-items:stretch;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:none;list-style:none;margin:0;padding:0}
+.ito-flow-track::-webkit-scrollbar{display:none}
+.ito-flow-slide{flex:0 0 100%;min-width:0;box-sizing:border-box;scroll-snap-align:start;padding:0 8%;margin:0;list-style:none}
+.ito-official-flow .flow__slider_frame{box-sizing:border-box;min-height:134cqw;height:100%;border:1px solid #ba9add;border-radius:4cqw;padding:4cqw;background:#fff}
+.ito-official-flow .flow__slider_img{margin:0 0 9.2cqw}
+.ito-official-flow .flow__slider_img img{display:block;width:100%;height:auto;margin:0}
+.ito-official-flow .flow__slider_frame h3{font-family:'Yu Gothic','Hiragino Kaku Gothic ProN',sans-serif;text-align:center;color:#3d3d3d;font-size:4.8cqw;font-weight:600;line-height:1.33;border-bottom:1px solid #ba9add;padding:0 0 1.33cqw;margin:0 0 5.33cqw}
+.ito-official-flow .flow__slider_frame p{font-family:'Yu Gothic','Hiragino Kaku Gothic ProN',sans-serif;font-size:3.46cqw;font-weight:500;line-height:2.1;letter-spacing:.24cqw;margin:0;padding:0;color:#262626}
+.ito-official-flow .flow__slider_frame p span{color:#ba9add}
+.ito-flow-arrow{position:absolute;top:50%;transform:translateY(-50%);width:8%;height:13.87cqw;min-height:44px;padding:0;border:0;border-radius:0;background:#ba9add;cursor:pointer;z-index:1}
+.ito-flow-prev{left:0}.ito-flow-next{right:0}
+.ito-flow-arrow::before{content:'';position:absolute;top:50%;width:4cqw;height:4cqw;border-top:2px solid #fff;border-right:2px solid #fff}
+.ito-flow-next::before{right:2.67cqw;transform:translateY(-50%) rotate(45deg)}
+.ito-flow-prev::before{left:2.67cqw;transform:translateY(-50%) rotate(-135deg)}
+.ito-flow-arrow:disabled{visibility:hidden;pointer-events:none}
+.ito-flow-dots{display:flex;justify-content:center;margin-top:4cqw;gap:0}
+.ito-flow-dots button{position:relative;width:8cqw;min-height:32px;height:6cqw;padding:0;border:0;background:none;cursor:pointer}
+.ito-flow-dots button::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:2.67cqw;height:2.67cqw;max-width:16px;max-height:16px;border-radius:50%;background:#cdc5d5}
+.ito-flow-dots button[aria-current=true]::before{background:#ba9add}
+.ito-flow-arrow:focus-visible,.ito-flow-dots button:focus-visible,.ito-flow-track:focus-visible{outline:2px solid #763fb1;outline-offset:-2px}

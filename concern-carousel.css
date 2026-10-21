@@ -1,0 +1,75 @@
+/* Concern cards use a native horizontal scroller so touch gestures stay natural. */
+#empathy.concern-carousel {container-type:inline-size;padding:24px 0 22px;overflow:hidden;background:#eaf7fb;color:#46565e}
+.concern-carousel * {box-sizing:border-box}
+@font-face {font-family:MenuMincho;src:url('assets/ShipporiMincho-Regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+.concern-carousel .concern-carousel-heading {position:relative;margin:0 4cqw 3cqw;padding:0 0 1cqw;font:400 3.9cqw/1.6 MenuMincho,'Yu Mincho',serif;letter-spacing:.08em;text-align:center;color:#527b8e}
+.concern-carousel .concern-carousel-heading em {display:flex;align-items:center;justify-content:center;gap:2cqw;font-size:4.2cqw;font-style:normal;letter-spacing:.025em;color:#d65f9f;white-space:nowrap}
+.concern-carousel .concern-carousel-heading em::before,.concern-carousel .concern-carousel-heading em::after {content:'';flex:1 1 0;height:1px;background:#df91ba}
+.concern-carousel .concern-carousel-heading::after {content:'';display:block;width:2.7cqw;height:2.7cqw;margin:1.5cqw auto .7cqw;border-right:.35cqw solid #d65f9f;border-bottom:.35cqw solid #d65f9f;transform:rotate(45deg)}
+.concern-carousel .concern-carousel-viewport {width:100%;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;scroll-behavior:auto;overscroll-behavior-x:contain;touch-action:pan-x pan-y;cursor:grab;padding:5px 0 12px;outline-offset:-3px}
+.concern-carousel .concern-carousel-viewport::-webkit-scrollbar {display:none}
+.concern-carousel .concern-carousel-viewport:focus-visible {outline:2px solid #679dac}
+.concern-carousel .concern-carousel-viewport.is-dragging {cursor:grabbing;user-select:none}
+.concern-carousel .concern-carousel-track {display:flex;width:max-content;gap:0;align-items:stretch}
+.concern-carousel .concern-carousel-group {display:flex;gap:14px;align-items:stretch;padding-right:14px}
+.concern-carousel .concern-carousel-card {flex:0 0 260px;width:260px;margin:0;overflow:hidden;border:1px solid #d9e8ed;border-radius:16px;background:#fff;box-shadow:0 5px 14px #9bb9c424;text-align:center}
+.concern-carousel .concern-carousel-card>img {display:block;width:100%;height:auto;aspect-ratio:750/1121;object-fit:cover;pointer-events:none;user-select:none}
+/* Supplied menu examples are displayed intact below their matching menu images. */
+.concern-carousel .concern-carousel-card[data-menu-tone]{align-self:flex-start;border:0;border-radius:0;background:transparent;box-shadow:none;overflow:visible}
+.concern-carousel .concern-carousel-card[data-menu-tone]>img{border-radius:16px;box-shadow:0 3px 10px #9bb9c41a}
+.concern-carousel .menu-example-original{display:block;aspect-ratio:670/508;margin-top:12px;line-height:0;background:var(--menu-footer-color);border-radius:8px;overflow:hidden;box-shadow:0 3px 10px #9bb9c41a}
+.concern-carousel .menu-example-original>img{display:block;width:100%;height:auto;max-width:100%;filter:none;user-select:none}
+.concern-carousel .menu-example-original:focus-visible{outline:3px solid #df559e;outline-offset:-3px}
+.concern-carousel .concern-carousel-price {margin:0;padding:16px 10px 14px;border-top:4px solid #f5dce7;background:#fff;min-height:150px;line-height:1.55}
+.concern-carousel .concern-carousel-price h3 {margin:0 0 8px;font:700 15px/1.5 "Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;color:#52656e}
+.concern-carousel .concern-carousel-price .price-before {margin:0;font-size:12px;color:#63717a}
+.concern-carousel .concern-carousel-price .price-before del {margin:0 3px;font-size:20px;font-weight:700;text-decoration-thickness:1px}
+.concern-carousel .concern-carousel-price .price-after {display:flex;align-items:baseline;justify-content:center;gap:3px;margin:2px 0;color:#d55b91;font-weight:700;font-size:17px}
+.concern-carousel .concern-carousel-price .price-after strong {font-size:43px;line-height:1.15;letter-spacing:-.03em}
+.concern-carousel .concern-carousel-price .price-label {display:inline-block;margin:6px 0;padding:2px 10px;border-radius:20px;background:#fff0f6;font-size:11px;font-weight:700;color:#ba6489}
+.concern-carousel .concern-carousel-price .price-note {margin:6px 0 0;font-size:9px;line-height:1.65;color:#73818a;text-align:left}
+.concern-carousel .concern-carousel-controls {display:flex;align-items:center;justify-content:center;gap:14px;margin:9px 16px 0}
+.concern-carousel .concern-carousel-controls button {display:flex;align-items:center;justify-content:center;gap:7px;border:1px solid #bad5df;border-radius:999px;background:#fff;color:#54727f;box-shadow:0 2px 0 #d5e6ec;cursor:pointer;font:500 11px/1.3 "Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;min-height:40px}
+.concern-carousel .concern-carousel-controls button:focus-visible {outline:2px solid #d5759f;outline-offset:3px}
+.concern-carousel .concern-carousel-controls button:active {transform:translateY(1px);box-shadow:none}
+.concern-carousel .concern-carousel-toggle {padding:8px 14px;min-width:166px}
+.concern-carousel .concern-carousel-step {width:40px;padding:0;font-size:23px!important}
+.concern-carousel .concern-carousel-hint {margin:11px 15px 0;font:400 10px/1.6 "Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;text-align:center;color:#6e8995;letter-spacing:.03em}
+.concern-carousel [data-carousel-status] {min-width:0}
+.concern-carousel .menu-combination{margin:6cqw 3.5cqw 0;color:#28b6d0;text-align:center}
+.concern-carousel .combination-heading{position:relative;margin:0 0 3cqw;font:700 4.05cqw/1.55 'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;letter-spacing:-.025em;color:#26b4cd;text-shadow:1px 1px white,-1px -1px white,1px -1px white,-1px 1px white}
+.concern-carousel .combination-heading>span{display:block;white-space:nowrap}
+.concern-carousel .combination-heading sup{font-size:.5em;vertical-align:super}
+.concern-carousel .combination-heading::before,.concern-carousel .combination-heading::after{content:'';position:absolute;top:1.7cqw;width:1.6cqw;height:1.6cqw;border:2px solid #fff;border-radius:50%;background:#38bed7;box-shadow:0 2.8cqw 0 -.1cqw #38bed7,0 5.3cqw 0 -.25cqw #38bed7}
+.concern-carousel .combination-heading::before{left:.3cqw;transform:rotate(-26deg)}
+.concern-carousel .combination-heading::after{right:.3cqw;transform:rotate(26deg)}
+.concern-carousel .combination-frame{padding:2.5cqw 3cqw 3cqw;border:.25cqw solid #e5a0c5;border-radius:3.8cqw;background:#fff;box-shadow:0 .5cqw 0 #f3cade,inset 0 0 2cqw #f9d5e866}
+.concern-carousel .combination-example-label{margin:0 0 1.7cqw;color:#b35a8c;font-size:2.5cqw;font-weight:600;line-height:1.4;letter-spacing:.08em}
+.concern-carousel .combination-row{padding:2cqw 2.2cqw;border-radius:1.6cqw;background:#e8f9fc}
+.concern-carousel .combination-row h4{margin:0 0 .6cqw;font-size:4.15cqw;font-weight:700;line-height:1.4;color:#26b4cd}
+.concern-carousel .combination-price{display:grid;grid-template-columns:43% 57%;align-items:center;gap:0}
+.concern-carousel .combination-price>p{margin:0;color:#26b4cd;font-size:3.1cqw;font-weight:600;line-height:1.4}
+.concern-carousel .combination-amount{display:flex;align-items:baseline;justify-content:center;white-space:nowrap}
+.concern-carousel .combination-amount>span{font-size:5cqw;line-height:1}
+.concern-carousel .combination-amount>strong{font:700 8.5cqw/1.1 Arial,sans-serif;letter-spacing:-.065em}
+.concern-carousel .combination-amount>small{font-size:2.2cqw;font-weight:400;letter-spacing:-.05em}
+.concern-carousel .combination-plus{position:relative;display:flex;align-items:center;justify-content:center;height:7.5cqw}
+.concern-carousel .combination-plus::before{content:'';position:absolute;left:.5cqw;right:.5cqw;border-top:.4cqw dotted #45bed5}
+.concern-carousel .combination-plus span{position:relative;display:block;padding:0 1cqw;background:white;color:#2bb8d1;font:600 7.5cqw/1 Arial,sans-serif}
+.concern-carousel .combination-note{margin:2.5cqw .6cqw 0;font-size:max(9px,1.8cqw);line-height:1.65;text-align:left;color:#6e8995}
+.concern-carousel .combination-note a{display:inline-block;margin-left:.6em;color:#4c9eb9;text-underline-offset:.2em}
+@media(max-width:374px) {
+  .concern-carousel .concern-carousel-card {flex-basis:240px;width:240px}
+  .concern-carousel .concern-carousel-group {gap:12px;padding-right:12px}
+  .concern-carousel .concern-carousel-controls {gap:10px}
+}
+
+/* Generated pink price-example artwork. */
+.concern-carousel .combination-generated-art{display:block;width:100%;height:auto;max-width:100%;margin:0}
+.concern-carousel .menu-combination-generated{color:#df50a7}
+
+/* Fill only the extra bottom space, preserving the original image proportions. */
+.concern-carousel [data-menu-tone="pink"]{--menu-footer-color:rgb(240,118,143)}
+.concern-carousel [data-menu-tone="blue"]{--menu-footer-color:rgb(106,134,227)}
+.concern-carousel [data-menu-tone="orange"]{--menu-footer-color:rgb(240,138,68)}
+.concern-carousel [data-menu-tone="green"]{--menu-footer-color:rgb(76,195,134)}

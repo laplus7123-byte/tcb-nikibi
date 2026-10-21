@@ -1,0 +1,262 @@
+/* Supplied photos stay unchanged; CSS provides the circular masks and flat bubbles. */
+#daily-benefits.benefits-clean {
+  container-type: inline-size;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0 0 3cqw;
+  background: #fff;
+  color: #354650;
+}
+/* Handwritten heading keeps the original two-line composition, without petals. */
+.benefits-clean .benefits-clean-heading {
+  position: relative;
+  margin: 0 0 3cqw;
+  padding: 5.5cqw 4cqw 8cqw;
+  background: linear-gradient(125deg, #edf9fd 0%, #fff 32%, #fff 73%, #fff1f8 100%);
+  text-align: center;
+}
+.benefits-clean .benefits-clean-kicker {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 3.3cqw;
+  color: #354650;
+  font-family: YomogiFull, Yomogi, 'Yu Gothic', sans-serif;
+  font-size: 5.8cqw;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -.035em;
+  white-space: nowrap;
+  transform: rotate(-1.2deg);
+}
+.benefits-clean .benefits-clean-kicker::after {
+  content: '';
+  position: absolute;
+  left: 8%;
+  bottom: -2cqw;
+  width: 88%;
+  height: 3cqw;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 34' fill='none'%3E%3Cpath d='M3 3C21 34 173 20 250 21C277 21 294 23 307 32C302 20 334 18 376 18C449 18 572 29 597 3' stroke='%23e176af' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+}
+.benefits-clean .benefits-clean-title {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: #da579e;
+  font-family: YomogiFull, Yomogi, 'Yu Gothic', sans-serif;
+  font-size: 11.7cqw;
+  font-weight: 600;
+  line-height: 1.22;
+  letter-spacing: -.055em;
+  transform: rotate(-2deg);
+}
+.benefits-clean .benefits-clean-title span {
+  display: block;
+  white-space: nowrap;
+}
+.benefits-clean .benefits-clean-title span:last-child {
+  color: #354650;
+  transform: rotate(1deg);
+}
+.benefits-clean .benefits-clean-title::after {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 6%;
+  bottom: -4.8cqw;
+  width: 92%;
+  height: 13cqw;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 650 100' fill='none'%3E%3Cpath d='M3 94C98 72 222 76 292 82C320 85 330 91 305 91C284 91 310 82 337 80C432 74 554 85 598 57C625 39 639 13 639 7C620 6 610 20 604 29C605 6 588 2 584 22C579 38 586 53 592 62' stroke='%23df6baa' stroke-width='2.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  pointer-events: none;
+}
+.benefits-clean .benefit-moment {
+  position: relative;
+  height: 76cqw;
+  margin: 0;
+  padding: 0;
+}
+.benefits-clean .benefit-photo {
+  position: absolute;
+  top: 4cqw;
+  left: 0;
+  width: 61cqw;
+  height: 61cqw;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 50%;
+  isolation: isolate;
+  background: #fff;
+}
+.benefits-clean .benefit-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  transform: scale(1.025);
+}
+.benefits-clean .benefit-moment:nth-of-type(2) .benefit-photo img {
+  transform: scale(1.055) translateY(-.7%);
+}
+.benefits-clean .benefit-moment:nth-of-type(3) .benefit-photo img {
+  transform: scale(1.06) translateY(-2.2%);
+}
+.benefits-clean .benefit-number {
+  position: absolute;
+  top: 6cqw;
+  left: 66cqw;
+  width: 18cqw;
+  color: #e9a5c1;
+  font-family: Didot, 'Bodoni 72', 'Times New Roman', serif;
+  font-size: 12.5cqw;
+  font-weight: 400;
+  letter-spacing: -.05em;
+  line-height: 1;
+}
+.benefits-clean .benefit-number::after {
+  content: none;
+}
+.benefits-clean .benefit-headline {
+  position: absolute;
+  top: 20cqw;
+  right: 7cqw;
+  height: 45cqw;
+  margin: 0;
+  padding: 0;
+  color: #d95d90;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: 'Yu Mincho', 'Hiragino Mincho ProN', 'Noto Serif JP', serif;
+  font-size: 5.65cqw;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: .015em;
+}
+.benefits-clean .benefit-headline span {
+  display: block;
+  white-space: nowrap;
+}
+.benefits-clean .benefit-bubble {
+  position: absolute;
+  z-index: 2;
+  top: .5cqw;
+  left: 31cqw;
+  width: 32cqw;
+  height: 18.2cqw;
+  color: #354650;
+  transform: rotate(-3deg);
+}
+.benefits-clean .benefit-bubble svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.benefits-clean .benefit-bubble p {
+  position: absolute;
+  top: 44%;
+  left: 5%;
+  width: 90%;
+  margin: 0;
+  transform: translateY(-50%);
+  font-family: Yomogi, 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+  font-size: 2.85cqw;
+  font-weight: 600;
+  line-height: 1.45;
+  text-align: center;
+  white-space: nowrap;
+}
+.benefits-clean .benefit-moment:nth-of-type(2) .benefit-bubble p,
+.benefits-clean .benefit-moment:nth-of-type(3) .benefit-bubble p {
+  font-size: 2.65cqw;
+}
+.benefits-clean .benefit-description {
+  position: absolute;
+  top: 65.8cqw;
+  left: 6cqw;
+  margin: 0;
+  padding: 0 0 1.2cqw;
+  font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Yu Gothic', Meiryo, sans-serif;
+  font-size: 2.9cqw;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: -.035em;
+}
+.benefits-clean .benefit-description::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 94%;
+  height: 1px;
+  background: #e9a5c1;
+}
+.benefits-clean .benefit-moment-reverse .benefit-photo {
+  top: 1cqw;
+  right: 0;
+  left: auto;
+}
+.benefits-clean .benefit-moment-reverse .benefit-number {
+  top: 7cqw;
+  left: 6cqw;
+}
+.benefits-clean .benefit-moment-reverse .benefit-headline {
+  top: 20cqw;
+  left: 19cqw;
+  right: auto;
+}
+.benefits-clean .benefit-moment-reverse .benefit-bubble {
+  top: 0;
+  left: auto;
+  right: 3cqw;
+}
+.benefits-clean .benefit-moment-reverse .benefit-description {
+  top: 63.2cqw;
+  left: 39cqw;
+  font-size: 2.7cqw;
+  letter-spacing: -.065em;
+  white-space: nowrap;
+}
+.benefits-clean .benefit-moment:last-of-type {
+  height: 76.5cqw;
+}
+.benefits-clean .benefit-moment:last-of-type .benefit-headline {
+  right: 8cqw;
+}
+.benefits-clean .benefit-moment:last-of-type .benefit-bubble {
+  top: 2cqw;
+  left: 34cqw;
+}
+.benefits-clean .benefits-clean-note {
+  position: relative;
+  margin: 0;
+  padding: 1cqw 4cqw 2cqw;
+  color: #666;
+  font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+  font-size: 1.65cqw;
+  line-height: 1.7;
+  text-align: center;
+}
+
+/* Solid pastel fills keep the speech balloons even at every screen size. */
+.benefits-clean .benefit-bubble path {
+  fill: #fff0f6;
+  stroke: #8d7a83;
+}
+.benefits-clean .benefit-moment-reverse .benefit-number {
+  color: #8cc8d9;
+}
+.benefits-clean .benefit-moment-reverse .benefit-headline {
+  color: #4b97ae;
+}
+.benefits-clean .benefit-moment-reverse .benefit-description::after {
+  background: #8cc8d9;
+}
+.benefits-clean .benefit-moment-reverse .benefit-bubble path {
+  fill: #eaf7fb;
+  stroke: #6b8c98;
+}
+
+/* Hand-lettered raster heading; preserve the original aspect ratio. */
+.benefits-clean .benefits-clean-heading.benefits-generated-heading{padding:0;background:#fff}
+.benefits-generated-heading>img{display:block;width:100%;height:auto;max-width:100%;margin:0}

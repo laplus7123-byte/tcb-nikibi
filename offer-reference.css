@@ -1,0 +1,66 @@
+/* Reference campaign composition; photos remain the original local assets. */
+.pastel-theme #post-quiz-fv.reference-offer{container-type:inline-size;background:#fff5fb;overflow:hidden;color:#385d72;text-align:center}
+.reference-offer .ref-hero{position:relative;height:45cqw;overflow:clip;background:#e3f5ff}
+.reference-offer .ref-portrait{position:absolute;display:block;width:124%;max-width:none;height:auto;left:-24%;top:-3cqw}
+.reference-offer .ref-brand-strip{position:absolute;top:0;left:0;width:59%;height:6cqw;background:transparent;z-index:2}
+.reference-offer .ref-brand{position:absolute;left:4.8cqw;top:1.2cqw;width:13.4cqw;height:4.6cqw;overflow:hidden}
+.reference-offer .ref-brand img{position:absolute;width:29cqw;max-width:none;left:-2.5cqw;top:-1.65cqw;mix-blend-mode:multiply}
+.reference-offer .ref-lead{position:absolute;left:5cqw;top:8.2cqw;margin:0;padding:.2cqw 1.8cqw;border:1px solid #a6d4e4;border-radius:8cqw;background:#ffffffa8;font-family:inherit;font-size:2.5cqw;font-weight:600;font-style:normal;letter-spacing:.06em;line-height:1.65;color:#4b8098;white-space:nowrap}
+.reference-offer .ref-headline{position:absolute;left:5cqw;top:15.1cqw;width:54cqw;margin:0;font-family:inherit;font-size:5.5cqw;font-weight:700;line-height:1.48;letter-spacing:.045em;text-align:left;font-style:normal;color:#386c85;text-shadow:0 .2cqw .4cqw #ffffffb0}
+.reference-offer .ref-headline span{display:block;white-space:nowrap}
+.reference-offer .ref-photo-note{position:absolute;right:1.4cqw;bottom:1.1cqw;margin:0;padding:0 .3cqw;background:#ffffff90;color:#4f5960;font-size:1.5cqw;line-height:1.3}
+.reference-offer .ref-evidence-band{padding:0 2.2cqw 3.5cqw;background:linear-gradient(110deg,#6fbcd7,#91d0e4)}
+.reference-offer .ref-comparison{display:grid;grid-template-columns:minmax(0,1fr) 3.5cqw minmax(0,1fr);align-items:center;margin:0}
+.reference-offer .ref-case-window{position:relative;aspect-ratio:734/337;overflow:hidden;background:#e4f2f6;border:.35cqw solid #f4bddb;border-radius:2.7cqw 0 2.7cqw 0}
+.reference-offer .ref-case-window img{position:absolute;display:block;width:104.632%;max-width:none;height:auto;left:-2.316%;top:-5.341%;filter:none;opacity:1}
+.reference-offer .ref-case-window.ref-after img{top:-122.849%}
+.reference-offer .ref-case-label{position:absolute;top:0;left:0;z-index:1;width:31%;height:4.2cqw;padding:.1cqw .8cqw;text-align:center;background:#94b6c5;color:white;font:italic 3.4cqw/1.15 Georgia,serif;letter-spacing:.06em}
+.reference-offer .ref-after .ref-case-label{background:#e19ac1}
+.reference-offer .ref-case-arrow{height:0;width:0;margin:auto;border-top:2.1cqw solid transparent;border-bottom:2.1cqw solid transparent;border-left:2.1cqw solid white}
+.reference-offer .ref-case-caption{margin:1cqw 0 .6cqw;color:#fff;font-size:max(8px,1.65cqw);line-height:1.5;text-align:left}
+.reference-offer .ref-case-caption a{color:inherit;text-underline-offset:.2em}
+.reference-offer .ref-intro-copy{margin:.6cqw 0 1.3cqw;color:white;font-size:2.85cqw;font-weight:700;letter-spacing:.04em;line-height:1.45}
+.reference-offer .ref-intro-copy strong{color:#fff0fa;font-size:4.7cqw;line-height:1;white-space:nowrap;text-shadow:0 .2cqw 0 #4f9dbd}
+.reference-offer .ref-benefits{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.7cqw;margin-top:2cqw}
+.reference-offer .ref-benefits>p{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9cqw;min-height:18cqw;margin:0;padding:1.5cqw .35cqw;background:#fff;border:0;border-radius:0;color:#d34b96;line-height:1.35;font-size:2.65cqw;font-weight:700;box-shadow:0 .55cqw 1cqw #458bac1c}
+.reference-offer .ref-benefits strong{position:relative;display:block;font-family:inherit;font-size:3.7cqw;font-weight:700;white-space:nowrap;line-height:1.4;color:#df559e}
+.reference-offer .ref-benefits small{font-size:max(7px,1.55cqw);font-weight:500;line-height:1.4;margin:0;color:#6a8797;white-space:nowrap}
+.reference-offer .ref-campaign-bottom{position:relative;padding:0 2cqw 1.2cqw;background:linear-gradient(115deg,#eefaff,#fff0f8)}
+.reference-offer .ref-ribbon{position:relative;width:76%;margin:-1.7cqw auto 0;padding:.8cqw 2.8cqw 1cqw;background:linear-gradient(105deg,#eba5ce,#d978af 50%,#efb8d9);color:#fff;filter:drop-shadow(0 .45cqw .2cqw #ae79a340);clip-path:polygon(0 0,100% 0,95% 50%,100% 100%,0 100%,5% 50%);line-height:1.25;z-index:2}
+.reference-offer .ref-ribbon strong{display:block;font-size:3.6cqw;letter-spacing:.04em;text-shadow:0 .15cqw #b36b9a}
+.reference-offer .ref-ribbon strong:before,.reference-offer .ref-ribbon strong:after{content:'✦';font-size:.8em;margin:0 .5em}
+.reference-offer .ref-ribbon span{display:block;width:77%;margin:.45cqw auto 0;border-radius:5cqw;background:#fff0f9;color:#9c4c7c;font-size:2cqw;line-height:1.35;font-weight:700;white-space:nowrap}
+.reference-offer .ref-redemption{display:block;margin:3.5cqw 0 1.5cqw}
+.reference-offer .ref-discount{position:relative;min-width:0;width:100%;padding:0 2cqw;text-align:center}
+.reference-offer .ref-before{margin:1.2cqw 0 .4cqw;font-size:3.1cqw;line-height:1.5;font-weight:600;white-space:nowrap;color:#566b78}
+.reference-offer .ref-before del{margin:0 .35em;font-size:4.1cqw;font-weight:800;text-decoration-thickness:.25cqw;text-decoration-color:#9fa7ad}
+.reference-offer .ref-now{display:inline-block;position:relative;padding:.3cqw 5cqw;border-radius:999px;color:#d34c96;background:#f9ddee;font-size:3.4cqw;font-weight:700;line-height:1.5;letter-spacing:.08em}
+.reference-offer .ref-amount{display:flex;align-items:center;justify-content:center;gap:.8cqw;margin:0;color:#e35ca7;line-height:1.05;white-space:nowrap;letter-spacing:-.06em;text-shadow:.12cqw .18cqw #fff,.25cqw .35cqw #f3b8d7;-webkit-text-stroke:.1cqw white}
+.reference-offer .ref-amount strong{font:900 19cqw/1.1 Arial,sans-serif;letter-spacing:-.065em}
+.reference-offer .ref-amount .ref-yen{font:700 5.5cqw/1 Arial,sans-serif;margin-right:.15cqw}
+.reference-offer .ref-amount .ref-off{display:flex;flex-direction:column;align-items:flex-start;gap:.5cqw;font:800 5.7cqw/1 Arial,sans-serif;letter-spacing:-.03em;margin-left:.5cqw}.reference-offer .ref-amount .ref-off>span{font-size:5.2cqw}
+.pastel-theme .reference-offer .ref-reserve{width:100%;min-height:10cqw;margin:1.3cqw 0 0;padding:2.2cqw 2.5cqw .9cqw;border-width:.25cqw;gap:0;box-shadow:inset 0 .25cqw .2cqw #fffd,0 .65cqw 0 #bf468e,0 .8cqw 1.2cqw #c34c9625}
+.reference-offer .ref-reserve .cta-kicker{position:absolute;top:-1.55cqw;left:5%;width:90%;padding:.2cqw .5cqw;font-size:2.05cqw;line-height:1.5;border:.3cqw solid #df72b2;white-space:nowrap}
+.reference-offer .ref-reserve .cta-label{font-size:2.25cqw;line-height:1.45;letter-spacing:0;white-space:nowrap}
+.reference-offer .ref-reserve .cta-label b{right:1.1cqw;font-size:3.7cqw}
+.reference-offer .ref-terms{margin:1.6cqw .3cqw 0;font-size:max(8px,1.38cqw);line-height:1.5;text-align:left;color:#516c7b}
+.reference-offer .ref-terms a{color:inherit;text-underline-offset:.2em}
+@media(max-width:430px){.reference-offer .ref-reserve .cta-label{font-size:11px;white-space:normal;padding-right:4px}.reference-offer .ref-reserve .cta-label span{display:block}.pastel-theme .reference-offer .ref-reserve{min-height:47px}.reference-offer .ref-reserve .cta-kicker{font-size:8px}.reference-offer .ref-case-caption{font-size:8px}}
+
+
+
+/* Handwritten accent and a consistent type scale for the four benefits. */
+.reference-offer .ref-headline em{position:relative;display:inline-block;margin-top:1.7cqw;font-family:YomogiFull,Yomogi,"Yu Gothic",sans-serif;font-size:6.7cqw;font-weight:600;font-style:normal;line-height:1.4;letter-spacing:-.025em;color:#d54e98;white-space:nowrap;transform:rotate(-3deg)}
+.reference-offer .ref-headline em::after{content:"";position:absolute;left:-.8cqw;right:-1cqw;bottom:-.5cqw;height:1.5cqw;border-bottom:.55cqw solid #ec9bc4;border-radius:50%;transform:rotate(-1.5deg)}
+.reference-offer .ref-benefit-label{display:block;align-self:center;font-size:2.7cqw;font-weight:700;line-height:1.35;color:#df559e;white-space:nowrap}
+.reference-offer .ref-benefits sup{position:absolute;top:-.3cqw;font-size:1.2cqw;line-height:1}.reference-offer .ref-benefits>p:first-child strong{font-size:5.2cqw;line-height:1.1}.reference-offer .ref-benefits .ref-benefit-order strong{font-size:3.55cqw;line-height:1.5}.reference-offer .ref-benefit-notes{margin:1.2cqw 0 0;color:#fff;font-size:max(8px,1.45cqw);line-height:1.5;text-align:left}
+
+/* User-supplied comparison / coupon artwork, displayed without cropping. */
+.reference-offer .ref-supplied-offer{display:block;margin:0;padding:0;line-height:0;background:#f0f8ff}
+.reference-offer .ref-supplied-offer>img{display:block;width:100%;height:auto;margin:0;max-width:100%;filter:none}
+
+/* Keep the supplied 750 × 920 source intact; show y=164..780 only. */
+.pastel-theme #post-quiz-fv.reference-offer{background:linear-gradient(110deg,#edf7ff 0%,#fce8fa 58%,#edeaff 100%)}
+.reference-offer .ref-supplied-offer-hires{position:relative;aspect-ratio:750/616;overflow:hidden;background:transparent;mask-image:linear-gradient(to bottom,transparent,#000 10px,#000 calc(100% - 10px),transparent);-webkit-mask-image:linear-gradient(to bottom,transparent,#000 10px,#000 calc(100% - 10px),transparent)}
+.reference-offer .ref-supplied-offer-hires>img{position:absolute;left:0;top:0;width:100%;height:auto;max-width:none;transform:translateY(-17.8260869565%)}
+.reference-offer .ref-supplied-offer-hires+.ref-campaign-bottom{background:transparent}

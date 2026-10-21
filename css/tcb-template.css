@@ -1,0 +1,110 @@
+/* TCB thread-lift template: white / ivory / muted rose. */
+.tcb-template{--rose:#b13f6a;--ink:#493f43;--line:#ebdce1;--ivory:#faf6eb;background:#f1efed;color:var(--ink);font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif}
+.tcb-template *{box-sizing:border-box}
+.tcb-template .page-wrap{max-width:640px;margin:auto;background:white;box-shadow:0 0 32px #493f4309}
+.tcb-template .tcb-hero{padding:0;background:#fff;border:0;container-type:inline-size;overflow:hidden}
+.tcb-hero__main{position:relative;display:grid;grid-template-columns:53% 47%;min-height:260px;background:linear-gradient(125deg,#fff 5%,#faf4f3);border-top:4px solid var(--rose)}
+.tcb-hero__copy{position:relative;z-index:1;padding:30px 0 24px 24px}
+.tcb-service{font-size:12px;color:#887e73;letter-spacing:.1em;margin:0 0 14px}
+.tcb-hero h1{font:500 clamp(24px,6.4cqw,40px)/1.35 'Yu Mincho','Hiragino Mincho ProN',serif;margin:0;letter-spacing:.02em}
+.tcb-hero h1 em{color:var(--rose);font-style:normal}
+.tcb-hero__sub{font-size:clamp(12px,2.8cqw,16px);line-height:1.8;margin:14px 0}
+.tcb-treatment{font-size:10px;letter-spacing:.13em;border:1px solid #d1bb90;border-radius:20px;padding:4px 14px;color:#806c4c}
+.tcb-hero__media{position:relative;min-width:0;overflow:hidden;border-radius:0 0 0 64px}
+.tcb-hero__media video{display:block;width:100%;height:100%;object-fit:cover;object-position:center 60%;position:absolute;inset:0}
+.tcb-hero__media>span{position:absolute;bottom:10px;right:10px;color:#fff;font-size:9px;background:#0005;padding:2px 6px}
+.tcb-hero__offer{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:18px;padding:16px 24px;background:#fff;text-align:center}
+.tcb-hero__offer small{font-size:10px;letter-spacing:.08em;display:block;color:#84796a}
+.tcb-hero__offer p{margin:0;font-size:12px;color:var(--rose);line-height:1.2}
+.tcb-hero__offer p strong{font:500 62px/1.1 Georgia,serif}.tcb-hero__offer p b{font-size:23px;font-weight:500}
+.tcb-ticket{border-left:1px solid #e0d4bb;padding-left:18px;display:flex;flex-direction:column;color:#80633a}
+.tcb-ticket>strong{font-size:29px;letter-spacing:-.05em;line-height:1.4}.tcb-ticket strong span{font-size:12px;letter-spacing:0}.tcb-ticket>span{font-size:10px}
+.tcb-price-details{border:0;border-top:1px solid #f0e8e4;margin:0;border-radius:0;background:white;padding:0}
+.tcb-price-details summary{padding:10px;text-align:center;font-size:10px;color:#888;cursor:pointer;list-style:none}
+.tcb-price-details summary:after{content:'⌄';margin-left:8px}.tcb-price-details p{padding:0 20px 14px;font-size:10px;line-height:1.8;color:#888;margin:0}
+.tcb-template .quiz{padding:0 24px 32px;background:white}
+.tcb-progress{margin:0 -24px 28px;background:var(--ivory);padding:20px 30px 16px;text-align:center}
+.tcb-progress__top{display:flex;justify-content:space-between;font-size:10px;letter-spacing:.04em;color:#887575;max-width:370px;margin:auto auto 10px}
+.tcb-progress__track{height:5px;background:#eed8e1;border-radius:10px;max-width:370px;margin:auto;overflow:hidden}
+.tcb-progress__track>span{display:block;width:25%;height:100%;background:linear-gradient(90deg,var(--rose),#dab95e);transition:width .3s}
+.tcb-progress__numbers{display:flex;gap:18px;justify-content:center;margin-top:12px}
+.tcb-progress__numbers span{width:24px;height:24px;border:1px solid #d9cece;border-radius:50%;background:#fff;color:#b5aaaa;font-size:11px;display:grid;place-items:center}
+.tcb-progress__numbers .is-on{border-color:var(--rose);background:var(--rose);color:white}
+.tcb-template .quiz-step{padding:0}.tcb-template .quiz__remain{display:none}
+.tcb-question-number{display:inline-block;color:var(--rose);font-size:12px;letter-spacing:.12em;font-weight:700;margin-bottom:7px}
+.tcb-template .quiz__q{font:600 19px/1.65 'Yu Gothic',sans-serif;text-align:left;color:var(--ink);margin:0 0 8px;letter-spacing:0;padding:0}
+.tcb-template .quiz__hint{text-align:left;font-size:11px;color:#998c91;margin:0 0 18px}
+.tcb-template .cards{display:grid;grid-template-columns:1fr;gap:12px;perspective:none}
+.tcb-template .card{border:1px solid var(--line);background:#fff;border-radius:12px;box-shadow:0 3px 12px #78334c05;min-height:0;cursor:pointer;overflow:hidden;opacity:1;filter:none;transform:none;outline-offset:3px}
+.tcb-template .card.is-active{border:1.5px solid var(--rose);background:#fff9fb;box-shadow:0 3px 12px #78334c0a}
+.tcb-template .card.is-dim{opacity:1;filter:none}
+.tcb-template .card__inner,.tcb-template .card.is-active .card__inner{transform:none;display:block;height:auto;min-height:0;position:relative;transition:none;aspect-ratio:auto}
+.tcb-template .card__face{position:relative;transform:none;backface-visibility:visible;padding:0;min-height:0;background:transparent;inset:auto}
+.tcb-template .card__front{display:grid;grid-template-columns:76px 1fr 28px;align-items:center;gap:14px;padding:10px 14px;min-height:92px}
+.tcb-template .card__front:after{content:'';width:19px;height:19px;border:1px solid #d0bb8b;border-radius:50%;justify-self:end}
+.tcb-template .card.is-active .card__front:after{content:'✓';display:grid;place-items:center;border-color:var(--rose);background:var(--rose);color:white;font-size:12px}
+.tcb-template .card__img{width:76px;height:76px;aspect-ratio:1;object-fit:cover;object-position:50% 17%;border-radius:50%;position:static;margin:0;filter:none}
+.tcb-template .card__label{order:0;background:none;color:var(--ink);font-size:14px;line-height:1.6;font-weight:600;border:0;border-radius:0;padding:0;min-height:0;white-space:normal;text-align:left}
+.tcb-template .card__label:before{display:none}
+.tcb-template .card__back{display:none;border-top:1px solid #efdae3;margin:0 14px;padding:12px 0;grid-template-columns:40px 1fr;gap:12px;align-items:center}
+.tcb-template .card.is-active .card__back{display:grid;transform:none}
+.tcb-template .card__smile{grid-column:1;grid-row:1;position:static;width:40px;height:40px;object-fit:cover;object-position:50% 15%;border-radius:50%;margin:0}
+.tcb-template .card__answer{grid-column:2;grid-row:1;padding:0;border:0;border-radius:0;min-height:0;background:transparent;text-align:left;color:var(--rose)}
+.tcb-template .card__answer:before{display:none}.tcb-template .card__eyebrow{font-size:10px;margin-bottom:3px}.tcb-template .card__feedback{font-size:12px;line-height:1.7;font-weight:500}
+.tcb-template .btn-next{display:block;width:100%;padding:15px 20px;min-height:48px;margin-top:22px;background:var(--rose);border:0;box-shadow:none;border-radius:30px;color:white;font-size:14px;line-height:1.5}
+.tcb-template .btn-next:disabled{background:#c9c4c6;color:#fff;opacity:1}.tcb-template .btn-prev{background:none;color:#85747b;border:0;font-size:12px;margin:15px auto 0}
+.tcb-template .intro-popup{max-width:480px;width:92vw;padding:32px 25px;border:1px solid #e6dce0;border-radius:20px;background:#fff;box-shadow:0 24px 80px #493f4322}
+.tcb-template .intro-popup::backdrop{background:#332b3266;backdrop-filter:blur(3px)}
+.tcb-intro__logo{display:block;width:110px;height:auto;margin:0 auto 28px}.tcb-intro h2{font-size:19px;line-height:1.9;text-align:center;color:var(--ink);margin:12px 0 24px}.tcb-intro h2 em{font-style:normal;color:var(--rose)}
+.tcb-intro .age-options{display:grid;grid-template-columns:1fr 1fr;gap:12px}.tcb-intro .age-options button{padding:18px 10px;border:1px solid #e5d0d9;border-radius:8px;background:#fff8fa;color:var(--rose);box-shadow:none;font-size:18px;font-weight:600}
+.tcb-intro__note{color:#9b9296;font-size:10px;line-height:1.8;text-align:center;margin-top:22px}
+.tcb-template .body-redesign{background:#fff;color:var(--ink);--body-ink:#493f43;--body-pink:#b13f6a}
+.tcb-template .body-redesign .section{padding:40px 24px;background:#fff;border:0;border-bottom:1px solid #f0e8eb}
+.tcb-template .body-redesign .section:nth-child(even){background:#fcfaf7}
+.tcb-template .body-redesign .section__title{color:var(--ink);font:500 24px/1.7 'Yu Mincho',serif;margin:0 0 22px;padding:0;letter-spacing:.03em;text-align:center}
+.tcb-template .section__title:after{display:none}.tcb-title-sub{display:block;font-size:15px;margin-top:4px}
+.tcb-section-tag{color:var(--rose);text-align:center;letter-spacing:.12em;font-size:11px;margin:0 0 12px}
+.tcb-template .section__lead{color:#6d6066;font-size:13px;line-height:1.9}
+.tcb-template .result-summary{background:#fff;border:1px solid #eadbe2;border-radius:12px;padding:22px;margin-top:26px}
+.tcb-template .result__type{border:0;background:#fbf1f5;color:var(--rose);box-shadow:none;padding:13px;margin:0 0 18px;font-size:16px;line-height:1.7;border-radius:4px}
+.tcb-template [data-result-body]{font-size:13px;line-height:2}.tcb-template .section__note{font-size:10px;color:#94888e;line-height:1.9}
+.tcb-template .result__guide{font-size:12px;text-align:center;line-height:1.9;color:#90757f;border:0;padding:20px 0 0;margin:0}
+.tcb-template .steps{display:grid;gap:18px}.tcb-template .step{display:flex;flex-direction:column;padding:18px;border:1px solid #eee3e7;border-radius:12px;background:white;box-shadow:none}
+.tcb-template .step__label{position:static;align-self:flex-start;background:none;color:var(--rose);font-size:11px;padding:0;border:0;order:-2}
+.tcb-template .step__title{font-size:17px;color:var(--ink);padding:8px 0 14px;line-height:1.6;order:-1}.tcb-template .step p{font-size:13px;line-height:1.9;margin:14px 0 0;color:#796b71}
+.tcb-template .mechanism-image{width:100%;height:auto;border-radius:6px;margin:0}
+.tcb-template .reason-list{display:grid;gap:14px}.tcb-template .reason{position:relative;padding:22px;background:white;border:1px solid #eee3e7;border-radius:12px;box-shadow:none}
+.tcb-template .reason__num{position:static;color:#c5a478;font:italic 26px Georgia,serif;background:none;border:0;width:auto;height:auto;text-align:left}
+.tcb-template .reason__title{padding:10px 0;font-size:17px;color:var(--ink);line-height:1.6}.tcb-template .reason p{font-size:13px;line-height:1.9;color:#796b71}
+.tcb-template .accordion{display:grid;gap:10px}.tcb-template .accordion details{padding:0;margin:0;border:1px solid #eadfe3;border-radius:8px;background:white;box-shadow:none}
+.tcb-template .accordion summary{font-size:13px;line-height:1.7;padding:15px 32px 15px 38px;background:white;color:var(--ink)}
+.tcb-template .accordion summary:before{color:var(--rose);left:14px;top:15px;font-size:16px}.tcb-template .accordion summary:after{color:var(--rose);right:13px;top:15px}
+.tcb-template .accordion details p{padding:0 16px 16px;font-size:12px;line-height:1.9;color:#796b71}
+.tcb-template .case{border:1px solid #e9dfe3;border-radius:12px;background:white}.tcb-template .case-number{background:#f7f0f3;color:var(--rose);font:600 12px/1.5 sans-serif;padding:12px 16px}.tcb-template .case-photo{width:100%;height:auto}.tcb-template .case__body{font-size:10px;line-height:1.8;color:#83767c}
+.tcb-template .benefit-grid{display:grid;grid-template-columns:1fr;gap:14px}.tcb-template .benefit-card{position:relative;display:grid;grid-template-columns:95px 1fr;grid-template-rows:auto auto;gap:2px 18px;align-content:center;border:0;border-bottom:1px solid #ecdee4;border-radius:0;padding:18px 0;background:transparent;box-shadow:none;text-align:left}
+.tcb-template .benefit-card>img{width:95px;height:95px;object-fit:cover;border-radius:50%;grid-row:1/3;grid-column:1}.tcb-template .benefit-card__eyebrow{grid-row:1;grid-column:2;background:none;color:#a28e96;font-size:11px;padding:14px 0 0}.tcb-template .benefit-card__text{grid-row:2;grid-column:2;background:none;color:var(--rose);font:500 19px/1.6 'Yu Mincho',serif;padding:0}.tcb-benefit-number{display:none}
+.tcb-template .offer{background:#fbf6f0!important}.tcb-template .offer__en{font:12px/1.5 Georgia,serif;letter-spacing:.16em;color:#a99275}.tcb-template .offer__name{font:500 24px/1.6 'Yu Mincho',serif;color:var(--ink);margin:14px 0}.tcb-template .offer__price{font:500 68px/1.3 Georgia,serif;color:var(--rose);text-shadow:none}
+.tcb-template .offer__coupon{background:#fff;border:1px solid #d7c5a4;border-radius:8px;box-shadow:none;color:#866739;font-size:23px;line-height:1.7;padding:18px}.tcb-template .offer__extra{font-size:13px;color:#87756f}
+.tcb-template .btn-cta{display:flex;align-items:center;justify-content:center;background:var(--rose);border:0;border-radius:30px;box-shadow:none;color:#fff;text-align:center;font-size:14px;line-height:1.6;padding:16px;min-height:50px;gap:10px}
+.tcb-template .trust-doctors{grid-template-columns:repeat(3,1fr);gap:14px}.tcb-template .doctor{border:0;background:none;padding:0;box-shadow:none}.tcb-template .doctor__avatar{border-radius:8px;max-width:100%;height:auto}.tcb-template .doctor__name{font-size:13px;color:var(--ink)}.tcb-template .doctor__qualification{font-size:9px}
+.tcb-template .clinic-count{background:var(--ivory);border:0;border-radius:8px;padding:20px;margin-top:24px}.tcb-template .clinic-count strong{font-size:22px;color:#947959}.tcb-template .clinic-count li{font-size:10px}
+.tcb-template .flow-list{display:grid;gap:0}.tcb-template .flow-item{padding:20px 0 20px 48px;border:0;border-bottom:1px solid #eadfe3;border-radius:0;background:none}.tcb-template .flow-item__num{top:22px;left:0;background:none;color:var(--rose);font:italic 24px Georgia,serif;width:auto;height:auto}.tcb-template .flow-item__title{font-size:15px;color:var(--ink)}.tcb-template .flow-item p{font-size:12px;line-height:1.9;color:#796b71}
+.tcb-template .final{background:#fbf6f0!important}.tcb-template .final [data-final-copy]{font-weight:400!important;font-size:13px;line-height:1.9!important}
+.tcb-template .legal-fixed,.tcb-template [data-body-section="17"]{font-size:10px;line-height:1.9;background:white;color:#93868d;padding:24px}
+.tcb-template .page-footer{display:flex;justify-content:center;background:white;padding:26px 20px 110px}.tcb-template .page-footer__logo{width:130px;height:auto;object-fit:contain}
+.tcb-template .sticky-cta{background:#ffffffec;border-top:1px solid #eee1e5;max-width:640px;padding:10px 16px;backdrop-filter:blur(8px)}.tcb-template .sticky-cta svg{width:21px;height:21px;flex-shrink:0}
+@media(max-width:400px){.tcb-hero__copy{padding-left:18px;padding-top:23px}.tcb-hero__main{min-height:230px}.tcb-template .quiz{padding-inline:18px}.tcb-progress{margin-inline:-18px}.tcb-template .card__front{grid-template-columns:60px 1fr 20px;gap:10px;padding:10px}.tcb-template .card__img{width:60px;height:60px}.tcb-template .card__label{font-size:13px}.tcb-template .body-redesign .section{padding:32px 18px}.tcb-ticket>strong{font-size:25px}}
+.tcb-template .benefit-list{display:grid;grid-template-columns:1fr;gap:0}
+.tcb-template .quiz__q{border:0;border-radius:0;background:none}
+.tcb-template .card__front{border:0;border-radius:0}
+.tcb-template .card__front:after{position:static;top:auto;left:auto;right:auto}
+.tcb-template .card:not(.is-active):hover .card__label{background:none}
+.tcb-template .card.is-active .card__front{visibility:visible;opacity:1}
+
+/* Center the visible logo, excluding whitespace in the source image. */
+.tcb-intro__brand{position:relative;width:160px;height:76px;overflow:hidden;margin:0 auto 24px}
+.tcb-intro__brand .tcb-intro__logo{position:absolute;width:368px;max-width:none;height:auto;left:-26px;top:-7px;margin:0}
+
+/* Center the visible footer mark within the source image's white margins. */
+.tcb-template .tcb-footer-brand{position:relative;width:160px;height:76px;overflow:hidden}
+.tcb-template .tcb-footer-brand .page-footer__logo{position:absolute;width:368px;max-width:none;height:auto;left:-26px;top:-7px;margin:0}

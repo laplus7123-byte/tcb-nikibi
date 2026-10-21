@@ -1,0 +1,10 @@
+/* Generated pink fixed CTA. The original PNG is preserved; only transparent outer padding is clipped. */
+.tcb-template.ito-dewy.pastel-theme .campaign-sticky{padding:3px 8px max(8px,env(safe-area-inset-bottom));}
+.tcb-template.ito-dewy.pastel-theme .campaign-sticky .sticky-image-button{display:block;width:100%;max-width:620px;max-height:none;min-height:0;padding:0;margin:0;border:0;border-radius:0;background:transparent;box-shadow:none;pointer-events:auto;animation:sticky-image-breathe 2.5s ease-in-out infinite;transform-origin:center bottom;}
+.sticky-image-button .sticky-generated-art{position:relative;display:block;width:100%;aspect-ratio:5.2;overflow:hidden;}
+.sticky-image-button .sticky-generated-art img{position:absolute;top:-35%;left:0;display:block;width:100%;height:auto;max-width:none;}
+.tcb-template.ito-dewy.pastel-theme .campaign-sticky .sticky-image-button:hover{animation-play-state:paused;}
+.tcb-template.ito-dewy.pastel-theme .campaign-sticky .sticky-image-button:active{animation:none;transform:scale(.97);}
+.tcb-template.ito-dewy.pastel-theme .campaign-sticky .sticky-image-button:focus-visible{outline:3px solid #b6458a;outline-offset:3px;animation:none;}
+@keyframes sticky-image-breathe{0%,100%{transform:scale(.97)}50%{transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){.tcb-template.ito-dewy.pastel-theme .campaign-sticky .sticky-image-button{animation:none;transform:none;}}

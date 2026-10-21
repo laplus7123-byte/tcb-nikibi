@@ -1,0 +1,30 @@
+/* Image CTA matches the supplied teal design. Intro and fixed pink CTA stay separate. */
+body.pastel-theme .campaign-cta.reference-image-cta,
+body.pastel-theme #consult .campaign-cta.reference-image-cta {
+  position:relative;display:block;width:100%;min-height:0;max-height:none;
+  margin:22px 0 18px;padding:0;border:0;border-radius:0;
+  background:transparent;box-shadow:none;text-shadow:none;text-decoration:none;
+  line-height:0;cursor:pointer;isolation:auto;container-type:normal;
+  transform-origin:center;animation:cta-reference-squish 1s ease infinite;
+}
+body.pastel-theme .campaign-cta.reference-image-cta::before,
+body.pastel-theme .campaign-cta.reference-image-cta::after{content:none;animation:none}
+.reference-image-cta .cta-art-frame{position:relative;display:block;width:100%;aspect-ratio:2172/568;overflow:hidden}
+.reference-image-cta .cta-generated-art{position:absolute;top:0;left:0;display:block;width:100%;height:auto;max-width:none;margin:0;transform:translateY(-12.1546961326%);pointer-events:none;user-select:none}
+/* Timing and scale values observed in the requested reference site's btn_animation. */
+@keyframes cta-reference-squish{
+  0%{transform:scale(1,.8)}
+  20%{transform:scale(.8,1.1)}
+  95%{transform:scale(1,1)}
+  100%{transform:scale(1,.8)}
+}
+body.pastel-theme .campaign-cta.reference-image-cta:focus-visible{animation:none;transform:none;outline:3px solid #269db8;outline-offset:5px;border-radius:22px}
+body.pastel-theme .campaign-cta.reference-image-cta:active{animation:none;transform:scale(.96);box-shadow:none}
+@media(hover:hover){body.pastel-theme .campaign-cta.reference-image-cta:hover{animation-play-state:paused}}
+@media(prefers-reduced-motion:reduce){body.pastel-theme .campaign-cta.reference-image-cta,body.pastel-theme #consult .campaign-cta.reference-image-cta{animation:none;transform:none}}
+
+/* Keep the generated border smooth and remove stray alpha pixels outside it. */
+.reference-image-cta .cta-generated-art{mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%202172%20724%22%3E%3Crect%20x%3D%2220%22%20y%3D%22200%22%20width%3D%222132%22%20height%3D%22422%22%20rx%3D%22211%22%20fill%3D%22white%22%2F%3E%3Crect%20x%3D%22326%22%20y%3D%2295%22%20width%3D%221520%22%20height%3D%22178%22%20rx%3D%2289%22%20fill%3D%22white%22%2F%3E%3C%2Fsvg%3E");-webkit-mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%202172%20724%22%3E%3Crect%20x%3D%2220%22%20y%3D%22200%22%20width%3D%222132%22%20height%3D%22422%22%20rx%3D%22211%22%20fill%3D%22white%22%2F%3E%3Crect%20x%3D%22326%22%20y%3D%2295%22%20width%3D%221520%22%20height%3D%22178%22%20rx%3D%2289%22%20fill%3D%22white%22%2F%3E%3C%2Fsvg%3E");mask-size:100% 100%;-webkit-mask-size:100% 100%;mask-repeat:no-repeat;-webkit-mask-repeat:no-repeat}
+
+/* Closing CTA has intrinsic dimensions and stays in normal layout on mobile. */
+body.pastel-theme #consult .reference-image-cta > .closing-cta-art{display:block;position:static;width:100%;height:auto;max-width:100%;margin:0;transform:none;mask:none;-webkit-mask:none;pointer-events:none}
