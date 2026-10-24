@@ -1,0 +1,52 @@
+/* Passton review 2026-10-22. 11pt equals 14.6667 CSS px. */
+.pastel-theme .fine,
+.pastel-theme .ref-terms,
+.pastel-theme .campaign-terms,
+.pastel-theme .combination-note,
+.pastel-theme .benefits-clean-note,
+.pastel-theme .case-caption,
+.pastel-theme .case-caption p,
+.pastel-theme .case-caption a,
+.pastel-theme .page-footer p,
+.pastel-theme .tcb-intro__note,
+.pastel-theme .review-menu-note,
+.pastel-theme .review-carousel-notes,
+.pastel-theme .review-carousel-notes p {
+  font-size:11pt!important;
+  line-height:1.75!important;
+  letter-spacing:normal!important;
+  color:#52636d;
+  text-align:left;
+}
+.pastel-theme .tcb-price-details{font-size:11pt;line-height:1.75}
+.pastel-theme .tcb-price-details summary{font-size:11pt;padding:12px 15px;cursor:pointer}
+#coupon-preview.coupon-dialog .campaign-terms{font-size:11pt!important;line-height:1.75!important;text-align:left}
+.review-price-body{padding:0 16px 16px;background:#fff}
+.review-price-body p,.review-price-body dt,.review-price-body dd,.review-price-body a{font-size:11pt!important;line-height:1.75!important;text-align:left}
+.review-price-body dl{margin:16px 0}
+.review-price-body dt{font-weight:700;color:#4e7182;border-top:1px solid #dceaf0;padding-top:12px;margin-top:12px}
+.review-price-body dd{margin:4px 0 0;color:#52636d}
+.hero-art,.closing-generated-visual{position:relative}
+.pastel-theme .review-photo-note,
+.pastel-theme .ref-photo-note{
+  position:absolute!important;right:0!important;bottom:0!important;
+  margin:0!important;padding:3px 8px!important;
+  font:400 11pt/1.5 'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif!important;
+  color:#52636d!important;background:transparent!important;z-index:2;
+}
+.pastel-theme .review-menu-note{margin:0;padding:7px 10px;background:#fff;border-radius:0 0 8px 8px}
+.pastel-theme .review-carousel-notes{margin:16px 4% 0;padding:14px;background:#fff;border:1px solid #dceaf0;border-radius:12px}
+.pastel-theme .review-carousel-notes p{margin:0 0 8px}
+.pastel-theme .review-carousel-notes p:last-child{margin-bottom:0}
+.pastel-theme .concern-carousel-card[data-menu-tone]>img{border-radius:14px 14px 0 0;aspect-ratio:750/1121;object-fit:fill}
+.pastel-theme .ref-terms,.pastel-theme .campaign-terms{padding:12px 10px;margin-top:16px!important}
+@media(max-width:374px){.pastel-theme .review-photo-note,.pastel-theme .ref-photo-note{padding:2px 5px!important}}
+
+/* Review item 5: treatment name and regular price by the coupon. */
+.pastel-theme .review-pico-price{margin:12px 10px 0;padding:12px 14px;border:1px solid #b5deea;border-radius:10px;background:#fff;color:#52636d;text-align:left}
+.pastel-theme .review-pico-price p{margin:0;font-size:11pt;line-height:1.75;letter-spacing:normal}
+.pastel-theme .review-pico-price strong{font-weight:700}
+/* Keep the readable text note without duplicating the tiny baked-in label. */
+.pastel-theme .hero-art>img{clip-path:inset(0 0 5% 0);margin-bottom:-2.7926%}
+.pastel-theme #consult .closing-generated-visual>img{clip-path:inset(0 0 5% 0);margin-bottom:-3.1274%}
+.pastel-theme .review-photo-note,.pastel-theme .ref-photo-note{text-shadow:0 0 2px rgba(255,255,255,.9)}
