@@ -1,0 +1,11 @@
+/* Nurse accompanies the existing answer feedback in all three questions. */
+.tcb-template.ito-dewy.pastel-theme .card__back{grid-template-columns:minmax(0,1fr) 72px;gap:10px;align-items:center;padding:4px 12px 16px}
+.pastel-theme .answer-nurse{grid-column:2;grid-row:1;display:flex;flex-direction:column;align-items:center;align-self:center;width:72px;gap:3px;color:#668493;font-size:10px;line-height:1.4;font-weight:500}
+.pastel-theme .answer-nurse img{display:block;width:72px;height:78px;object-fit:contain;object-position:center bottom}
+.tcb-template.ito-dewy.pastel-theme .card__answer{grid-column:1;grid-row:1;border-radius:14px;padding:12px;background:#fff;border:1px solid #efbed7}
+.tcb-template.ito-dewy.pastel-theme .card__answer:before{display:block;background:#fff;border-color:#efbed7}
+@media(max-width:359px){
+ .tcb-template.ito-dewy.pastel-theme .card__back{grid-template-columns:minmax(0,1fr) 60px;gap:8px;padding-inline:10px}
+ .pastel-theme .answer-nurse{width:60px}
+ .pastel-theme .answer-nurse img{width:60px;height:68px}
+}

@@ -96,10 +96,10 @@ function renderQuestions() {
        </span>
        <span class="card__face card__back" aria-hidden="true">
         <span class="card__answer">
-         <span class="card__eyebrow">＼ ご相談のポイント ／</span>
+         <span class="card__eyebrow">ご相談のポイント</span>
          <span class="card__feedback" id="feedback-${questionIndex}-${optionIndex}">${feedback[questionIndex][optionIndex]}</span>
         </span>
-        <span class="answer-icon" aria-hidden="true">✓</span>
+        <span class="answer-nurse" aria-hidden="true"><img src="assets/quiz-nurse-20261024.png" width="309" height="320" alt=""/><span>ナース</span></span>
        </span>
       </span>
      </button>`).join('')}
