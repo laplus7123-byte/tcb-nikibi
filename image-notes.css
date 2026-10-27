@@ -8,3 +8,6 @@
 
 /* Intro disclosure: keep the requested one-line exception at every popup width. */
 .pastel-theme .gift-intro .tcb-intro__note{font-size:clamp(6px,2.5cqw,12px)!important;line-height:1.6!important;white-space:nowrap;text-align:center;letter-spacing:0!important}
+
+/* Keep the label clear of the English step titles at the bottom right. */
+.pastel-theme .flow__slider_img .image-disclaimer{left:6px;right:auto;bottom:5px}
