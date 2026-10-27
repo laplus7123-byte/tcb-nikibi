@@ -1,0 +1,22 @@
+/* Notes remain available in native, keyboard-accessible disclosures. */
+.pastel-theme .note-accordion{display:block;margin:12px 4%;border:1px solid #d2e7ef;border-radius:10px;background:#f8fcfe;text-align:left;color:#52636d;overflow:hidden}
+.pastel-theme .note-accordion>summary{position:relative;display:flex;align-items:center;justify-content:space-between;gap:12px;list-style:none;padding:12px 14px;min-height:44px;box-sizing:border-box;font-size:11pt;line-height:1.6;font-weight:500;cursor:pointer;letter-spacing:normal;color:#52798c}
+.pastel-theme .note-accordion>summary::-webkit-details-marker{display:none}
+.pastel-theme .note-accordion>summary::after{content:'＋';flex:none;color:#d65a9b;font-size:18px;line-height:1}
+.pastel-theme .note-accordion[open]>summary::after{content:'−'}
+.pastel-theme .note-accordion[open]>summary{border-bottom:1px solid #dbeaf0}
+.pastel-theme .note-accordion>summary:focus-visible{outline:2px solid #d65a9b;outline-offset:-3px;border-radius:9px}
+.pastel-theme .note-accordion__body{padding:12px 14px}
+.pastel-theme .note-accordion .note-copy,.pastel-theme .note-accordion .note-copy p,.pastel-theme .note-accordion .note-copy a,.pastel-theme .review-price-body .note-copy{position:static!important;display:block;margin:0 0 8px!important;padding:0!important;font-size:11pt!important;line-height:1.75!important;font-weight:400;letter-spacing:normal!important;text-align:left!important;color:#52636d!important;background:transparent!important;text-shadow:none!important}
+.pastel-theme .note-accordion .note-copy:last-child,.pastel-theme .note-accordion .note-copy p:last-child{margin-bottom:0!important}
+.pastel-theme .note-accordion .note-copy a{display:inline;text-decoration:underline}
+.pastel-theme .note-accordion--card{margin:0;border-radius:0 0 10px 10px;border-top:0;background:#fff}
+.pastel-theme .note-accordion--card>summary{padding:10px 12px}
+.pastel-theme .case-entry>.note-accordion{margin:10px 0 0}
+.pastel-theme .quiz>.note-accordion{margin:18px 0 0}
+.pastel-theme .ref-campaign-bottom>.note-accordion{margin:12px 10px}
+.pastel-theme .note-accordion--image{margin:0;border-width:0 0 1px;border-radius:0;background:transparent}
+.pastel-theme dialog .note-accordion{margin:14px 0 0}
+.pastel-theme .page-footer>.note-accordion{margin:14px 0 0}
+/* Reset the generic disclosure chevron so the plus/minus stays upright. */
+.pastel-theme .note-accordion>summary::after{position:static;inset:auto;width:auto;height:auto;border:0;background:none;transform:none!important;transition:none}

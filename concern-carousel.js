@@ -62,7 +62,7 @@
       position = viewport.scrollLeft;
     };
     const hold = () => { resumeAt = performance.now() + 4000; };
-    const canRun = (now) => visible && !document.hidden && !userPaused && !hovered && !focused && !touching && now >= resumeAt && span > 0;
+    const canRun = (now) => visible && !viewport.querySelector('details[open]') && !document.hidden && !userPaused && !hovered && !focused && !touching && now >= resumeAt && span > 0;
     const tick = (now) => {
       const elapsed = lastTime ? Math.min(now - lastTime, 40) : 0;
       lastTime = now;

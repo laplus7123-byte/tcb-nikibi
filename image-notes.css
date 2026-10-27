@@ -1,0 +1,9 @@
+/* Image labels are always visible; the user requested a one-line size exception. */
+.pastel-theme .image-note-host{position:relative;container-type:inline-size}
+.pastel-theme .image-disclaimer{position:absolute;right:7px;bottom:5px;z-index:3;display:block;margin:0;padding:0;max-width:calc(100% - 14px);font:400 clamp(9px,3cqw,14px)/1.4 'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;letter-spacing:0;color:#52636d;background:transparent;white-space:nowrap;text-shadow:0 0 2px rgba(255,255,255,.95);pointer-events:none}
+.pastel-theme .concern-image-wrap{display:block;margin:0;line-height:0;border-radius:14px 14px 0 0;overflow:hidden;box-shadow:0 3px 10px #9bb9c41a}
+.pastel-theme .concern-image-wrap>img{display:block;width:100%;height:auto;aspect-ratio:750/1121;object-fit:fill;pointer-events:none;user-select:none}
+.pastel-theme .concern-image-wrap .image-disclaimer{right:6px;bottom:6px;color:#384d59}
+
+/* Intro disclosure: keep the requested one-line exception at every popup width. */
+.pastel-theme .gift-intro .tcb-intro__note{font-size:clamp(6px,2.5cqw,12px)!important;line-height:1.6!important;white-space:nowrap;text-align:center;letter-spacing:0!important}
